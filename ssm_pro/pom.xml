@@ -133,6 +133,7 @@
 
     <build>
         <finalName>ssm_pro</finalName>
+        <!--maven中设置打包时将main/javax下的xml文件一起打包,解决mapper文件找不到的问题-->
         <resources>
             <resource>
                 <directory>src/main/java</directory>
